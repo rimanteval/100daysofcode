@@ -18,8 +18,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         text2 = (TextView) findViewById(R.id.tv2);
-        int num = 1 + (int) (Math.random() * ((1000 - 1) + 1));
-        text2.setText(num + "");
+        text2.setText(getIntent().getExtras().getString("num"));
 
         btn2 = (Button) findViewById(R.id.b2);
         btn2.setOnClickListener(new View.OnClickListener() {
