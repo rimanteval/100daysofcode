@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Day1</string>
+    <string name="activity_a_button">Activity A button</string>
+    <string name="activity_b_button">Activity B button</string>
 </resources>
